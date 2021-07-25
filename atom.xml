@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://xccoco.github.io</id>
     <title>xc的博客!</title>
-    <updated>2021-07-24T13:24:51.611Z</updated>
+    <updated>2021-07-25T04:41:34.448Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://xccoco.github.io"/>
     <link rel="self" href="https://xccoco.github.io/atom.xml"/>
@@ -10,6 +10,20 @@
     <logo>https://xccoco.github.io/images/avatar.png</logo>
     <icon>https://xccoco.github.io/favicon.ico</icon>
     <rights>All rights reserved 2021, xc的博客!</rights>
+    <entry>
+        <title type="html"><![CDATA[S13错误]]></title>
+        <id>https://xccoco.github.io/post/s13-cuo-wu/</id>
+        <link href="https://xccoco.github.io/post/s13-cuo-wu/">
+        </link>
+        <updated>2021-07-25T04:41:21.000Z</updated>
+        <content type="html"><![CDATA[<p>1：trie树数组大小问题</p>
+<p>2:有向图建成无向图</p>
+<p>3：重构树n没乘二</p>
+<p>4:考场错误：数组越界</p>
+<p>5:splay根据排名求时小于等于</p>
+<p>6:题目中给的long long矩阵快速幂中写的int</p>
+]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[hello world!]]></title>
         <id>https://xccoco.github.io/post/hello-world/</id>
