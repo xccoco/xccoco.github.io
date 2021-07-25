@@ -1,22 +1,104 @@
-<?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom">
-    <id>https://xccoco.github.io</id>
-    <title>xc的博客!</title>
-    <updated>2021-07-25T14:59:08.229Z</updated>
-    <generator>https://github.com/jpmonette/feed</generator>
-    <link rel="alternate" href="https://xccoco.github.io"/>
-    <link rel="self" href="https://xccoco.github.io/atom.xml"/>
-    <subtitle> 星空があなたの頭上に輝いています。 </subtitle>
-    <logo>https://xccoco.github.io/images/avatar.png</logo>
-    <icon>https://xccoco.github.io/favicon.ico</icon>
-    <rights>All rights reserved 2021, xc的博客!</rights>
-    <entry>
-        <title type="html"><![CDATA[给OIER的ubuntu安装教程]]></title>
-        <id>https://xccoco.github.io/post/gei-oier-de-ubuntu-an-zhuang-jiao-cheng/</id>
-        <link href="https://xccoco.github.io/post/gei-oier-de-ubuntu-an-zhuang-jiao-cheng/">
-        </link>
-        <updated>2021-07-25T12:23:20.000Z</updated>
-        <content type="html"><![CDATA[<p>肝了一个晚上写出来的东西，自我觉得还是挺傻瓜式的</p>
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" >
+
+<title>给OIER的ubuntu安装教程 | xc的博客!</title>
+
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+<link rel="shortcut icon" href="https://xccoco.github.io/favicon.ico?v=1627225142831">
+<link rel="stylesheet" href="https://xccoco.github.io/styles/main.css">
+
+
+
+<link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+<script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+
+
+
+    <meta name="description" content="肝了一个晚上写出来的东西，自我觉得还是挺傻瓜式的
+
+写在最前面
+我所理解的OIER的需求就是刷刷题，听听音乐，看看视频，偶尔打打游戏。所以如果你的需求比这个要高，那么本文很可能帮不了你。但系统安装部分仍有阅读价值。
+而你如果啥事没有就是想折..." />
+    <meta name="keywords" content="" />
+  </head>
+  <body>
+    <div id="app" class="main">
+
+      <div class="sidebar" :class="{ 'full-height': menuVisible }">
+  <div class="top-container" data-aos="fade-right">
+    <div class="top-header-container">
+      <a class="site-title-container" href="https://xccoco.github.io">
+        <img src="https://xccoco.github.io/images/avatar.png?v=1627225142831" class="site-logo">
+        <h1 class="site-title">xc的博客!</h1>
+      </a>
+      <div class="menu-btn" @click="menuVisible = !menuVisible">
+        <div class="line"></div>
+      </div>
+    </div>
+    <div>
+      
+        
+          <a href="/" class="site-nav">
+            首页
+          </a>
+        
+      
+        
+          <a href="/archives" class="site-nav">
+            归档
+          </a>
+        
+      
+        
+          <a href="/tags" class="site-nav">
+            标签
+          </a>
+        
+      
+        
+          <a href="/post/about" class="site-nav">
+            关于
+          </a>
+        
+      
+    </div>
+  </div>
+  <div class="bottom-container" data-aos="flip-up" data-aos-offset="0">
+    <div class="social-container">
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    </div>
+    <div class="site-description">
+       星空があなたの頭上に輝いています。 
+    </div>
+    <div class="site-footer">
+      Powered by <a href="https://github.com/getgridea/gridea" target="_blank">Gridea</a> | <a class="rss" href="https://xccoco.github.io/atom.xml" target="_blank">RSS</a>
+    </div>
+  </div>
+</div>
+
+
+      <div class="main-container">
+        <div class="content-container" data-aos="fade-up">
+          <div class="post-detail">
+            <h2 class="post-title">给OIER的ubuntu安装教程</h2>
+            <div class="post-date">2021-07-25</div>
+            
+            <div class="post-content" v-pre>
+              <p>肝了一个晚上写出来的东西，自我觉得还是挺傻瓜式的</p>
 <figure data-type="image" tabindex="1"><img src="https://i.loli.net/2021/07/25/HMa4SGf8DXN3TPd.jpg" alt="ubuntu .jpg" loading="lazy"></figure>
 <h2 id="写在最前面">写在最前面</h2>
 <p>我所理解的OIER的需求就是刷刷题，听听音乐，看看视频，偶尔打打游戏。所以如果你的需求比这个要高，那么本文很可能帮不了你。但系统安装部分仍有阅读价值。</p>
@@ -144,31 +226,46 @@ scanf(&quot;%d&quot;, &amp;n);
 <p>通过终端装程序等东西时最好先运行一遍<strong>sudo apt-get update</strong> 更新系统资源</p>
 <p>steam也在官网上有对应的deb包。 里面的绝大多数游戏都能运行。里面的ddnet是一个开源的好游戏，B站上也有教程<s>小声BB</s></p>
 <p>ubuntu官网可以查看该系统的最新动态</p>
-]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[S13错误]]></title>
-        <id>https://xccoco.github.io/post/s13-cuo-wu/</id>
-        <link href="https://xccoco.github.io/post/s13-cuo-wu/">
-        </link>
-        <updated>2021-07-25T04:41:21.000Z</updated>
-        <content type="html"><![CDATA[<p>1：trie树数组大小问题</p>
-<p>2:有向图建成无向图</p>
-<p>3：重构树n没乘二</p>
-<p>4:考场错误：数组越界</p>
-<p>5:splay根据排名求时小于等于</p>
-<p>6:题目中给的long long矩阵快速幂中写的int</p>
-]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[hello world!]]></title>
-        <id>https://xccoco.github.io/post/hello-world/</id>
-        <link href="https://xccoco.github.io/post/hello-world/">
-        </link>
-        <updated>2021-07-17T14:29:40.000Z</updated>
-        <content type="html"><![CDATA[<h1 id="hello-world">hello world!</h1>
-<h2 id="hello-world-2">hello world!</h2>
-<h3 id="hello-world-3">hello world!</h3>
-]]></content>
-    </entry>
-</feed>
+
+            </div>
+            
+            
+              <div class="next-post">
+                <div class="next">下一篇</div>
+                <a href="https://xccoco.github.io/post/s13-cuo-wu/">
+                  <h3 class="post-title">
+                    S13错误
+                  </h3>
+                </a>
+              </div>
+            
+
+            
+
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+<script type="application/javascript">
+
+AOS.init();
+
+var app = new Vue({
+  el: '#app',
+  data: {
+    menuVisible: false,
+  },
+})
+
+</script>
+
+
+
+
+
+
+  </body>
+</html>
