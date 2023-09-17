@@ -150,17 +150,58 @@
         
     <div class="post-wrap-left wow fadeInUp">
         
-            <a class="post-link" href="/2023/09/08/P3540%20%5BPOI2012%5D%20SQU-Squarks%20%E9%A2%98%E8%A7%A3/"></a>
+            <a class="post-link" href="/2023/09/08/Prufer%20%E5%BA%8F%E5%88%97/"></a>
         
         
         <div class="post-cover-left">
             
                 
                 
-                    <img data-src="https://cdn.luogu.com.cn/upload/image_hosting/xwbtqw0f.png" data-sizes="auto" alt="P3540 [POI2012] SQU-Squarks 题解" class="lazyload">
+                    <img data-src="https://cdn.luogu.com.cn/upload/image_hosting/xwbtqw0f.png" data-sizes="auto" alt="Prufer 序列" class="lazyload">
                 
             
 
+        </div>
+        <div class="post-info">
+            <div class="post-meta">
+                <a><span class="icon-calendar"></span>2023-09-08</a>
+                
+                    <a><span class="icon-pencil"></span>921 words</a>
+                
+                
+                    <a><span class="icon-clock"></span>3 mins</a>
+                
+            </div>
+            <h2 class="post-title">Prufer 序列</h2>
+            <article class="post-article">
+                
+                    Prufer 序列实际上是一种转化的产物，这种转化使得一棵有 nnn 个点的无根树可以在线性时间内与一个有 n−2n-2n−2 个元素，且序列中元素权值在 [1,n][1,n][1,n] 中的序列互相转化。
+它与单纯的父节点组成的序列区别在于：对于每棵树，它的 Prufer 序列是唯一的，每一个 Prufer 序列也对应着唯一一棵树。换句话说，树与 Prufer 序列是双射关系。
+Prufer 序列强大的地方就在这里。把一棵树转化为一个序列，而序列的计数难度明显小于树的计数。
+ 由树转化成 Prüfer 序列
+先给出转化的步骤：
+
+寻找到当前最小的叶子节点 uuu。
+把 uuu 的父亲加入 P
+                
+            </article>
+        </div>
+    </div>
+
+
+    
+        
+    <div class="post-wrap-right wow fadeInUp">
+        
+            <a class="post-link" href="/2023/09/08/P3540%20%5BPOI2012%5D%20SQU-Squarks%20%E9%A2%98%E8%A7%A3/"></a>
+        
+        <div class="post-cover-right">
+            
+                
+                
+                    <img data-src="https://cdn.luogu.com.cn/upload/image_hosting/xwbtqw0f.png" data-sizes="auto" alt="P3540 [POI2012] SQU-Squarks 题解" class="lazyload">
+                
+            
         </div>
         <div class="post-info">
             <div class="post-meta">
@@ -193,39 +234,39 @@ a1=b1+b2a_1=b_1+b_2a1​=b1​+b2​，且 a2=b1+b3a_2=b_1+b_3a2​=b1​+b3​�
 
     
         
-    <div class="post-wrap-right wow fadeInUp">
+    <div class="post-wrap-left wow fadeInUp">
         
-            <a class="post-link" href="/2023/09/08/Prufer%20%E5%BA%8F%E5%88%97/"></a>
+            <a class="post-link" href="/2022/09/10/slope%20trick/"></a>
         
-        <div class="post-cover-right">
+        
+        <div class="post-cover-left">
             
                 
                 
-                    <img data-src="https://cdn.luogu.com.cn/upload/image_hosting/xwbtqw0f.png" data-sizes="auto" alt="Prufer 序列" class="lazyload">
+                    <img data-src="https://cdn.luogu.com.cn/upload/image_hosting/xwbtqw0f.png" data-sizes="auto" alt="slope trick" class="lazyload">
                 
             
+
         </div>
         <div class="post-info">
             <div class="post-meta">
-                <a><span class="icon-calendar"></span>2023-09-08</a>
+                <a><span class="icon-calendar"></span>2022-09-10</a>
                 
-                    <a><span class="icon-pencil"></span>921 words</a>
+                    <a><span class="icon-pencil"></span>810 words</a>
                 
                 
                     <a><span class="icon-clock"></span>3 mins</a>
                 
             </div>
-            <h2 class="post-title">Prufer 序列</h2>
+            <h2 class="post-title">slope trick</h2>
             <article class="post-article">
                 
-                    Prufer 序列实际上是一种转化的产物，这种转化使得一棵有 nnn 个点的无根树可以在线性时间内与一个有 n−2n-2n−2 个元素，且序列中元素权值在 [1,n][1,n][1,n] 中的序列互相转化。
-它与单纯的父节点组成的序列区别在于：对于每棵树，它的 Prufer 序列是唯一的，每一个 Prufer 序列也对应着唯一一棵树。换句话说，树与 Prufer 序列是双射关系。
-Prufer 序列强大的地方就在这里。把一棵树转化为一个序列，而序列的计数难度明显小于树的计数。
- 由树转化成 Prüfer 序列
-先给出转化的步骤：
-
-寻找到当前最小的叶子节点 uuu。
-把 uuu 的父亲加入 P
+                    slope trick 是一种转换方式，适用于斜率为整数的分段凸函数。
+ 转换主体
+考虑一个经典的，斜率为整数的分段凸函数：y=∣x∣y=|x|y=∣x∣。把他拆开即可表示成为
+f(x)={y=−x(x&amp;lt;0)y=x(x≥0)f(x)=\left\{ \begin{aligned} y  =  -x(x&amp;lt;0) \\ y  =  x(x\ge 0) \\\end{aligned} \right.
+f(x)={y=−x(x&amp;lt;0)y=x(x≥0)​
+观察图像，在一些点上（在这里为 (0,0)(0,0)(0,0)），斜率会发生变化（在这里为 +2+2+2）。只要我们记录出斜率在某些横坐
                 
             </article>
         </div>
@@ -234,19 +275,17 @@ Prufer 序列强大的地方就在这里。把一棵树转化为一个序列，�
 
     
         
-    <div class="post-wrap-left wow fadeInUp">
+    <div class="post-wrap-right wow fadeInUp">
         
             <a class="post-link" href="/2022/09/10/%E4%BD%A0%E9%9C%80%E8%A6%81%E9%81%BF%E5%85%8D%E7%9A%84/"></a>
         
-        
-        <div class="post-cover-left">
+        <div class="post-cover-right">
             
                 
                 
                     <img data-src="https://cdn.luogu.com.cn/upload/image_hosting/xwbtqw0f.png" data-sizes="auto" alt="你需要避免的" class="lazyload">
                 
             
-
         </div>
         <div class="post-info">
             <div class="post-meta">
@@ -271,17 +310,19 @@ Prufer 序列强大的地方就在这里。把一棵树转化为一个序列，�
 
     
         
-    <div class="post-wrap-right wow fadeInUp">
+    <div class="post-wrap-left wow fadeInUp">
         
             <a class="post-link" href="/2022/09/08/FWT%20%E5%8F%98%E6%8D%A2/"></a>
         
-        <div class="post-cover-right">
+        
+        <div class="post-cover-left">
             
                 
                 
                     <img data-src="https://cdn.luogu.com.cn/upload/image_hosting/xwbtqw0f.png" data-sizes="auto" alt="FWT 变换" class="lazyload">
                 
             
+
         </div>
         <div class="post-info">
             <div class="post-meta">
@@ -330,7 +371,7 @@ Ci​=∑i=k⊕j​Ak​Bj​
         <div class="sidebar-state">
             <div class="sidebar-state-article">
                 <div>Posts</div>
-                <div class="sidebar-state-number">4</div>
+                <div class="sidebar-state-number">5</div>
             </div>
             <div class="sidebar-state-category">
                 <div>Categories</div>
@@ -338,7 +379,7 @@ Ci​=∑i=k⊕j​Ak​Bj​
             </div>
             <div class="sidebar-state-tag">
                 <div>Tags</div>
-                <div class="sidebar-state-number">3</div>
+                <div class="sidebar-state-number">4</div>
             </div>
         </div>
         <div class="sidebar-social">
@@ -396,7 +437,7 @@ Ci​=∑i=k⊕j​Ak​Bj​
     <div class="widget-wrap wow fadeInRight">
         <h3 class="widget-title">Tag Cloud</h3>
         <div class="widget tagcloud">
-            <a href="/tags/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/" style="font-size: 20px;">学习笔记</a> <a href="/tags/%E7%B2%BE%E5%BD%A9%E6%97%B6%E5%88%BB/" style="font-size: 10px;">精彩时刻</a> <a href="/tags/%E9%A2%98%E8%A7%A3/" style="font-size: 10px;">题解</a>
+            <a href="/tags/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/" style="font-size: 20px;">学习笔记</a> <a href="/tags/%E6%8A%80%E5%B7%A7%E5%AD%A6%E4%B9%A0/" style="font-size: 10px;">技巧学习</a> <a href="/tags/%E7%B2%BE%E5%BD%A9%E6%97%B6%E5%88%BB/" style="font-size: 10px;">精彩时刻</a> <a href="/tags/%E9%A2%98%E8%A7%A3/" style="font-size: 10px;">题解</a>
         </div>
     </div>
 
@@ -436,10 +477,10 @@ Ci​=∑i=k⊕j​Ak​Bj​
             
                 <div>
                     <span class="icon-brush"></span>
-                    5.4k
+                    6.3k
                     &nbsp;|&nbsp;
                     <span class="icon-coffee"></span>
-                    00:26
+                    00:29
                 </div>
             
             
@@ -466,7 +507,7 @@ Ci​=∑i=k⊕j​Ak​Bj​
         <div class="sidebar-state">
             <div class="sidebar-state-article">
                 <div>Posts</div>
-                <div class="sidebar-state-number">4</div>
+                <div class="sidebar-state-number">5</div>
             </div>
             <div class="sidebar-state-category">
                 <div>Categories</div>
@@ -474,7 +515,7 @@ Ci​=∑i=k⊕j​Ak​Bj​
             </div>
             <div class="sidebar-state-tag">
                 <div>Tags</div>
-                <div class="sidebar-state-number">3</div>
+                <div class="sidebar-state-number">4</div>
             </div>
         </div>
         <div class="sidebar-social">
